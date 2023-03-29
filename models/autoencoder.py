@@ -1,6 +1,6 @@
 import numpy as np
 import tensorflow as tf
-from tensorflow.compat.v1.layers import Dense
+from tensorflow.keras.layers import Dense
 from tensorflow.python.keras.layers import Conv2D, Flatten, Dropout
 
 from models.customlayers import build_unified_encoder, build_unified_decoder
