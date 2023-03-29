@@ -1,7 +1,7 @@
 import math
 
 import tensorflow as tf
-from tensorflow.compat.v1.layers import Conv2D, Conv2DTranspose, BatchNormalization
+from tensorflow.keras.layers import Conv2D, Conv2DTranspose, BatchNormalization
 from tensorflow.keras.layers import LeakyReLU, ReLU, LayerNormalization
 
 
