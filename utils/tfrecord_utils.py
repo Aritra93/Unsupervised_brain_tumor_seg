@@ -37,7 +37,7 @@ def read_tf_record(filename):
     images = []
     labels = []
     sets = []
-    record_iterator = tf.python_io.tf_record_iterator(path=filename)
+    record_iterator = tf.io.tf_record_iterator(path=filename)
     for string_record in record_iterator:
         example = tf.train.Example()
         example.ParseFromString(string_record)
